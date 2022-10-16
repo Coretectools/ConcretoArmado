@@ -47,7 +47,7 @@ A resistência do concreto à tração de cálculo (\(f_{ctd}\)) se dá através
 </table>
 
 <p align="justify">
-A partir disso, tem-se o comprimento básico de ancoragem (\(l_b\)), que tem que deverá ser maior ou igual a \(25.\phi_l\) conforme equação (3). Já a equação (4) apresenta o comprimento de ancoragem necessário (\(l_{b,nec}\))
+A partir disso, tem-se o comprimento básico de ancoragem (\(l_b\)), que tem que deverá ser maior ou igual a \(25.\phi_l\) conforme equação (3). Já a equação (4) apresenta o comprimento de ancoragem necessário (\(l_{b,nec}\)):
 </p> 
 
 <table width = "100%" border = "0">
@@ -80,3 +80,5 @@ A partir disso, tem-se o comprimento básico de ancoragem (\(l_b\)), que tem que
     <li>\(A_{s,calc}\) - Área de aço calculada;</li>
     <li>\(A_{s,ef}\) - Área de aço efetiva.</li>
 </ul>
+
+<h2>Exemplo resolvido</h2>
