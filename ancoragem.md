@@ -102,6 +102,6 @@ Para avaliarmos o comprimento básico de ancoragem é necessário determinar as 
 Determinando a resistência de cálculo à tração e o comprimento de ancoragem básico:
 </p>
 
-\[f_{ctd}=\frac{0,21.\sqrt[3]{25^{2}}}}{\gamma_c}=1,28\]
-\[f_bd=2,25.\eta_2.1.1,28=2,88.\eta_2\]
-\[l_{b}=\frac{\phi}{4}.\frac{f_{yd}}{f_{bd}} \geq 25.\phi\]
+\[f_{ctd}=\frac{0,21.\sqrt[3]{25^{2}}}}{\gamma_c}=1,28\]  
+\[f_bd=2,25.\eta_2.1.1,28=2,88.\eta_2\]  
+\[l_{b}=\frac{\phi}{4}.\frac{f_{yd}}{f_{bd}} \geq 25.\phi\]  
