@@ -32,7 +32,7 @@ Para o cálculo do comprimento de ancoragem, é preciso obter a tensão de ader�
 </ul>
 
 <p align="justify">
-A resistência do concreto à tração de cálculo (\(f_{ctd}\)) se dá através da equação (2): 
+A resistência do concreto à tração de cálculo (\(f_{ctd}\)) se dá através da equação (2) onde \(f_{ctk,inf\) é a resistência caracterísitca à tração direta do concreto para o quantil inferior (\(f_{ctk,inf}=0,21.\sqrt[3]{f_{ck}^{2}}\)) e \(\gamma_c=1,40\).
 </p> 
 
 <table width = "100%" border = "0">
@@ -82,3 +82,26 @@ A partir disso, tem-se o comprimento básico de ancoragem (\(l_b\)), que tem que
 </ul>
 
 <h2>Exemplo resolvido</h2>
+
+<p align="justify">
+Determinar o comprimento de ancoragem básico (\(l_b\)) de uma barra de aço de 16,00 mm sujeita a situações de boa e má aderência em uma peça de concreto com \(f_{ck}\) = 25 MPa.
+</p>
+
+<p align="justify">
+Para avaliarmos o comprimento básico de ancoragem é necessário determinar as incógnitas da equação (1). Os termos \(\eta\) podem ser dados como:
+</p>
+
+<ul>
+    <li>\(\eta_1\) = 2,25 para barras nervuradas como é o caso do CA-50;</li>
+    <li>\(\eta_2\) = 1,00 para situações de boa aderência;</li>
+    <li>\(\eta_2\) = 0,70 para situações de má aderência;</li>
+    <li>\(\eta_3\) = 1,00 para \(\phi_l < 32 mm\);</li>
+</ul>
+
+<p align="justify">
+Determinando a resistência de cálculo à tração e o comprimento de ancoragem básico:
+</p>
+
+\[f_{ctd}=\frac{0,21.\sqrt[3]{25^{2}}}}{\gamma_c}=1,28\]
+\[f_bd=2,25.\eta_2.1.1,28=2,88.\eta_2\]
+\[l_{b}=\frac{\phi}{4}.\frac{f_{yd}}{f_{bd}} \geq 25.\phi\]
